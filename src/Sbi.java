@@ -1,6 +1,8 @@
-public class Sbi implements bankAccount{
+public class Sbi implements bankAccount {
+
+
     @Override
-    public boolean withdrawMoney() {
+    public boolean withDrawMoney(int money) {
         return false;
     }
 }
