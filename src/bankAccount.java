@@ -2,7 +2,6 @@ public interface bankAccount {
 
 
 
-
     boolean addMoney(int money);
     int checkBalance();
     int ROI();

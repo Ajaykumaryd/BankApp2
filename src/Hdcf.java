@@ -2,6 +2,8 @@ import java.util.UUID;
 
 public class Hdcf implements bankAccount{
 
+    private int roi;
+    private int balance;
     private String AccountNumber;
 
     public String getAccountNumber() {
@@ -16,8 +18,7 @@ public class Hdcf implements bankAccount{
         this.roi = roi;
     }
 
-    private int roi;
-    private int balance;
+
     public Hdcf(int balance) {
         this.balance = balance;
         this.AccountNumber= String.valueOf(UUID.randomUUID());
